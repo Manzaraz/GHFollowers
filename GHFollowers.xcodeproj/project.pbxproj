@@ -15,6 +15,7 @@
 		6107F2802C6177B0009BB17F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6107F27F2C6177B0009BB17F /* FavoritesListVC.swift */; };
 		6107F2822C6185F8009BB17F /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6107F2812C6185F8009BB17F /* GFButton.swift */; };
 		6107F2842C619864009BB17F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6107F2832C619864009BB17F /* GFTextField.swift */; };
+		618A3C5F2C6275A200D77192 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A3C5E2C6275A200D77192 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6107F27F2C6177B0009BB17F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		6107F2812C6185F8009BB17F /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		6107F2832C619864009BB17F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		618A3C5E2C6275A200D77192 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6107F27F2C6177B0009BB17F /* FavoritesListVC.swift */,
 				6107F2812C6185F8009BB17F /* GFButton.swift */,
 				6107F2832C619864009BB17F /* GFTextField.swift */,
+				618A3C5E2C6275A200D77192 /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				6107F2802C6177B0009BB17F /* FavoritesListVC.swift in Sources */,
 				6107F2822C6185F8009BB17F /* GFButton.swift in Sources */,
 				6107F27E2C61776B009BB17F /* SearchVC.swift in Sources */,
+				618A3C5F2C6275A200D77192 /* FollowerListVC.swift in Sources */,
 				6107F2662C612D4E009BB17F /* AppDelegate.swift in Sources */,
 				6107F2682C612D4E009BB17F /* SceneDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
